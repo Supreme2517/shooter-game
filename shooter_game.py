@@ -7,9 +7,9 @@ mixer.music.play()
 fire_sound = mixer.Sound('fire.ogg')
 
 font.init()
-font = font.SysFont('Arial', 36)
+font = font.SysFont('Arial', 56)
 
-win = font.render('Ты победил!', 1, 'Green')
+win = font.render('Ты победил!', 1, 'Orange')
 lose = font.render('Ты проиграл!', 1, (180, 0, 0))
 
 img_back = "galaxy.jpg"
